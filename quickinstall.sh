@@ -24,12 +24,7 @@ apt-get update && apt-get dist-upgrade -y
 #
 #Install stuff I use all the time
 #
-apt-get install -y build-essential checkinstall docker.io fail2ban git git-core libbz2-dev libc6-dev libgdbm-dev libncursesw5-dev libreadline-gplv2-dev libsqlite3-dev libssl-dev nikto nmap nodejs python-dev python-numpy python-scipy python-setuptools tk-dev unattended-upgrades 
-
-#
-#Install Ruby
-#
-curl -L https://get.rvm.io | bash -s stable --ruby
+apt-get install -y build-essential checkinstall docker.io fail2ban git git-core nmap python-dev python-numpy python-scipy python-setuptools unattended-upgrades htop 
 
 #
 #PCAP Everything
